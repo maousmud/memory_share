@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="HTML5 exsample" />
+		<meta name="author" content="boku" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" />
+		<title>動画登録</title>
+	</head>
+	<body>
+		<h1>動画をアップロードしてください</h1><br>
+		<input type="file" name="example" accept="image/jpeg, image/png"><br>
+		<label for="l_title">動画タイトル</label><br>
+		<input type="text" name="title" style="border: solid 1px" /><br>
+		<label for="l_title">動画概要</label>
+		<textarea name="remarks" cols="3000"></textarea>
+		<form action="/menu" method="POST">
+			<td colspan="2"><input type="submit" value="戻る" /></td>
+		</form>
+	</body>
+</html>
